@@ -18,22 +18,25 @@
             body {
                 font-family: 'Nunito';
             }
+            #menu {
+                position: fixed;
+            }
         </style>
     </head>
     <body>
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" id="menu">
         <div class="flex justify-between h-16">
             <div class="flex">
                 <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
                     @if (Route::has('login'))
                         <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                             @auth
-                                <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 underline">Dashboard</a>
+                                <a href="{{ url('/dashboard') }}" class="text-sm text-blue-700 underline">Dashboard</a>
                             @else
-                                <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Login</a>
+                                <a href="{{ route('login') }}" class="text-sm text-blue-700 underline">Login</a>
 
                                 @if (Route::has('register'))
-                                    <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
+                                    <a href="{{ route('register') }}" class="ml-4 text-sm text-blue-700 underline">Register</a>
                                 @endif
                             @endauth
                         </div>
@@ -42,6 +45,7 @@
             </div>
         </div>
     </div>
+    
     <script src="{{asset('js/three.js')}}"></script>
     <script>
 
