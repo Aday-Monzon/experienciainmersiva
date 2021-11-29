@@ -32,7 +32,7 @@
                                     </div>
 									<h1 class="major">Experiencias<br />
 									Inmersivas</h1>
-									<p><strong>Bienvenid@</strong>, a free site template by AJ for <a href="#">H</a>. It’s fully responsive, built on HTML5 and CSS3, and released entirely for free under the Creative Commons license. Hope you dig it :)</p>
+									<p><strong>Bienvenid@</strong>, a free site <a href="#">H</a>. It’s fully responsive, built on HTML5 and CSS3, and released entirely for free under the Creative Commons license. Hope you dig it :)</p>
 									<ul class="actions">
 										<li><a href="#first" class="button primary color1 circle icon solid fa-angle-right">Next</a></li>
 									</ul>
@@ -424,10 +424,10 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			</div>
 
 		<!-- Scripts -->
-			<script src="{{asset('assets/js/jquery.min.js')}}"></script>
-			<script src="{{asset('assets/js/browser.min.js')}}"></script>
-			<script src="{{asset('assets/js/breakpoints.min.js')}}"></script>
-			<script src="{{asset('assets/js/main.js')}}"></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/main.js"></script>
 
 	</body>
 </html>
