@@ -40,7 +40,7 @@
 								</div>
 								<div class="image " data-position="25% 25%">
 									
-                                    <img src="images/cube.svg" alt=""/>
+                                    <img src="images/logoCube.svg" alt=""/>
 								</div>
 							</section>
 
